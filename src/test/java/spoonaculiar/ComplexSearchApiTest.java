@@ -27,7 +27,7 @@ public class ComplexSearchApiTest {
                 .all()
                 .expect()
                 .statusCode(200)
-                //.time(Matchers.lessThanOrEqualTo(500L))
+                .time(Matchers.lessThanOrEqualTo(2500L))
                 .log()
                 .all()
                 .when()
