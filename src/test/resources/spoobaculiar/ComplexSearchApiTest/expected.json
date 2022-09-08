@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": 157961,
+      "title": "Kale Rolls",
+      "image": "https://spoonacular.com/recipeImages/157961-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 648718,
+      "title": "Kale Colcannon",
+      "image": "https://spoonacular.com/recipeImages/648718-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 648715,
+      "title": "Kale Bruschetta",
+      "image": "https://spoonacular.com/recipeImages/648715-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "offset": 0,
+  "number": 3,
+  "totalResults": 62
+}
