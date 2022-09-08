@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40d97a58-aa5f-411c-886c-ea0210c39257" name="Changes" comment="Less_4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/spoonaculiar/ComplexSearchApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spoobaculiar/ComplexSearchApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spoobaculiar/ComplexSearchApiTest/expected.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spoonaculiar/ComplexSearchApiTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ComplexSearchApiTest">
+  <component name="RunManager" selected="JUnit.ComplexSearchApiTest.testSearchKale">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.Main" />
       <module name="Lesson_4" />
@@ -81,19 +82,36 @@
       <module name="Lesson_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spoonaculiar.*" />
+          <option name="PATTERN" value="spoobaculiar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="spoonaculiar" />
-      <option name="MAIN_CLASS_NAME" value="spoonaculiar.ComplexSearchApiTest" />
+      <option name="MAIN_CLASS_NAME" value="spoobaculiar.ComplexSearchApiTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComplexSearchApiTest.testSearchKale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spoobaculiar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spoonaculiar" />
+      <option name="MAIN_CLASS_NAME" value="spoobaculiar.ComplexSearchApiTest" />
+      <option name="METHOD_NAME" value="testSearchKale" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComplexSearchApiTest.testSearchKale" />
         <item itemvalue="JUnit.ComplexSearchApiTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -115,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662490430348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Less_4">
+      <created>1662608600652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662608600652</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Less_4">
+      <created>1662608651583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662608651584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
