@@ -20,7 +20,7 @@ public class ComplexSearchApiTest {
     static void beforeAll(){
         RestAssured.baseURI = "https://api.spoonacular.com";
         RestAssured.requestSpecification = new RequestSpecBuilder()
-                .addParam("apiKey","70d82fc726724e858ca58430f20b5b18")
+                .addParam("apiKey","ffd7edd0a1a94e50abebf2aee2be91ca")
                 .build();
     }
 
@@ -31,19 +31,19 @@ public class ComplexSearchApiTest {
                 .param("number",3)
                 .param("query","kale")
                 .param("cuisine", "Japanese")
-                //.log()
-                //.all()
+                .log()
+                .uri()
                 .expect()
                 .statusCode(200)
                 .time(lessThanOrEqualTo(5000L))
                 .body("totalResults", is(62))
                 .body("results", hasSize(3))
-                //.log()
-               // .all()
+                .log()
+                .body()
                 .when()
                 .get("/recipes/complexSearch")
                 .body()
-                .prettyPrint();
+                .asPrettyString();
 
         String expected = readResourceAsString("expected.json");
         JsonAssert.assertJsonEquals(expected,actually,JsonAssert.when(Option.IGNORING_ARRAY_ORDER));
